@@ -14,7 +14,7 @@ class JitterBug {
 
     clicked(px,py){
         let d= dist(px, py, this.x, this.y);
-        if (d<this.diameter){
+        if (d<50){
             // if(px> this.x&&px<this.x+this.diameter&&py>this.y&&py<this.y+this.diameter){
             this.cat=random(cats);
         }
