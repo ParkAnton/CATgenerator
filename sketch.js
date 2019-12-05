@@ -13,7 +13,7 @@ function preload(){
 function setup() {
     imageMode(CENTER);
     createCanvas(1200 , 700);
-    for (let i=0; i<200; i++){
+    for (let i=0; i<300; i++){
         let x = random(width);
         let y =random(height);
         let diameter = random(100,400);
@@ -49,3 +49,4 @@ function draw() {
     }
 
 }   
+  
